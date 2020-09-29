@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-source-dynamodb",
+  "name": "@nearst/gatsby-source-dynamodb",
   "version": "0.0.2",
   "description": "Source info from DynamoDB ",
   "main": "index.js",
