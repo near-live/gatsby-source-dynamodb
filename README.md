@@ -1,3 +1,5 @@
+Forked from https://github.com/wmlutz/gatsby-source-dynamodb
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -27,7 +29,7 @@ module.exports = {
       resolve: 'gatsby-source-dynamodb',
       options: {
         typeName: '<INPUT_GRAPHQL_TYPE_NAME_HERE>',
-        accessKeyId: '<AWS_ACCESS_KEY_ID>', 
+        accessKeyId: '<AWS_ACCESS_KEY_ID>',
         secretAccessKey: '<AWS_SECRET_ACCESS_KEY>',
         region: '<AWS_REGION>',
         params: {
